@@ -1,5 +1,4 @@
 FROM python:latest
 WORKDIR /dektop/docker
-COPY . .
+COPY requirements.txt .
 RUN pip install -r requirements.txt
-COPY . .
